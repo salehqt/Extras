@@ -1,0 +1,28 @@
+{
+  "description": "a compiler for the Standard ML '97 programming language with associated libraries, tools, and documentation.",
+  "homepage": "https://www.smlnj.org/",
+  "version":"110.99.2",
+  "license": "https://www.smlnj.org/license.html",
+  "architecture": {
+   "32bit": {
+     "url": "https://www.smlnj.org/dist/working/110.99.2/smlnj-110.99.2.msi",
+    "hash": "26523CFBA97450B5AE11409D713160F3E0E33D59B8368CCBA99ACD68458E85F3"
+   },
+   "64bit": {
+     "url": "https://www.smlnj.org/dist/working/110.99.2/smlnj-110.99.2.msi",
+    "hash": "26523CFBA97450B5AE11409D713160F3E0E33D59B8368CCBA99ACD68458E85F3"
+   }
+   },
+   "extract_dir": "PFiles\\SMLNJ",
+   "bin": [
+       "bin\\sml.bat",
+       "bin\\link-sml.bat",
+       "bin\\ml-antlr.bat",
+       "bin\\ml-build.bat",
+       "bin\\ml-burg.bat",
+       "bin\\ml-lex.bat",
+       "bin\\ml-nlffigen.bat",
+       "bin\\ml-ulex.bat",
+       "bin\\ml-yacc.bat"
+   ]
+}
